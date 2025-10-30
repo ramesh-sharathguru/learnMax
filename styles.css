@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #eef3f9;
+}
+header {
+    background: #0e76bc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    background: #28557b;
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #4587b6;
+}
+nav ul li:hover {
+    background: #3c698d;
+    cursor: pointer;
+}
+main {
+    padding: 20px;
+    background: #fff;
+}
+.welcome img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background: #28557b;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-info, .important-links, .social-media {
+    flex: 1 1 250px;
+    margin: 10px;
+}
+.campus-map-img {
+    max-width: 200px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
